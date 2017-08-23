@@ -65,6 +65,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 	</node>
 
 	<!--Start RVIZ-->
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find depthimage_to_laserscan)/rviz/depthimage_to_laserscan2.rviz)" output="screen"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find depthimage_to_laserscan)/rviz/depthimage_to_laserscan.rviz" output="screen"/>
 
 </launch>
